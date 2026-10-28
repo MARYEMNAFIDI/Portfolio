@@ -29,13 +29,13 @@ export const projects: Project[] = [
     eyebrow: "Conception de produit · Transformation digitale",
     category: "Produit digital",
     summary:
-      "Conception d’une plateforme métier pour digitaliser les processus des différents départements et services, fluidifier la circulation de l’information et faciliter le pilotage des activités.",
+      "Une plateforme métier pour relier les services, simplifier les processus et mieux piloter les activités.",
     technologies: ["React", "TypeScript", "PostgreSQL"],
     visual: "haras",
     context:
-      "Lorsque chaque département s’appuie sur ses propres supports et processus, le partage d’information, la coordination des services et le suivi des activités deviennent plus complexes.",
+      "Des outils dispersés compliquent les échanges, la coordination et le suivi quotidien.",
     solution:
-      "Un prototype de plateforme commune organisé par départements, services et workflows métier. Il rassemble les principaux parcours opérationnels dans des espaces cohérents, avec des rôles et des vues de pilotage adaptés.",
+      "Un prototype commun qui rassemble les parcours métier, avec des espaces et des vues adaptés à chaque équipe.",
     features: [
       "Centralisation des informations utiles aux différents services",
       "Digitalisation et suivi des workflows inter-départements",
@@ -50,7 +50,7 @@ export const projects: Project[] = [
       "Préparation des tests fonctionnels et de la documentation destinée au SI",
     ],
     learning:
-      "La digitalisation réussie commence par la compréhension des pratiques de chaque service et la conception de parcours communs qui respectent leurs réalités de terrain.",
+      "Bien digitaliser, c’est d’abord comprendre le terrain et respecter les pratiques de chaque équipe.",
     illustrative: true,
   },
   {
@@ -60,13 +60,13 @@ export const projects: Project[] = [
     eyebrow: "Application mobile · Innovation digitale",
     category: "Produit digital",
     summary:
-      "Un projet dédié aux métiers équins, imaginé pour des besoins terrain rarement couverts par les outils numériques généralistes.",
+      "Le numérique pensé pour les métiers équins, là où les outils généralistes ne suffisent pas.",
     technologies: ["React Native", "Expo", "TypeScript", "Prisma", "PostgreSQL"],
     visual: "equisignal",
     context:
-      "Les professionnels de la filière équine ont des pratiques et des besoins spécifiques, souvent trop singuliers pour les logiciels généralistes. EquiSignal imagine une réponse conçue autour de ces usages métier.",
+      "Les métiers équins ont leurs propres codes. EquiSignal part de ces usages, pas d’un outil passe-partout.",
     solution:
-      "Une application mobile dédiée aux métiers équins, qui relie fiches d’identification, signalement graphique et saisie codifiée dans un outil pensé pour le terrain.",
+      "Une app mobile qui réunit identification, signalement graphique et saisie codifiée, jusque sur le terrain.",
     features: [
       "Identification et gestion des informations équines",
       "Signalement graphique sur planches anatomiques",
@@ -84,13 +84,13 @@ export const projects: Project[] = [
     eyebrow: "Data analytics · Business intelligence",
     category: "Data science",
     summary:
-      "Transformer des données opérationnelles en indicateurs lisibles pour mieux comprendre les activités et éclairer les décisions.",
+      "Des données opérationnelles transformées en indicateurs clairs pour guider les décisions.",
     technologies: ["Data analytics", "KPI", "Dashboards"],
     visual: "analytics",
     context:
-      "Les données sont plus utiles lorsqu’elles sont présentées dans leur contexte et reliées aux questions concrètes des équipes.",
+      "Un indicateur ne vaut que s’il répond à une vraie question métier.",
     solution:
-      "Une approche de visualisation centrée sur des indicateurs de performance, des comparaisons et des synthèses destinées au pilotage.",
+      "Des KPI, comparaisons et tableaux de bord conçus pour rendre l’activité lisible.",
     features: [
       "Analyse des coûts et suivi des consommations",
       "Visualisation des KPI",
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     ],
     role: ["Analyse de données opérationnelles", "Identification des besoins de pilotage", "Conception de représentations analytiques"],
     learning:
-      "Choisir les bonnes représentations demande autant de compréhension métier que de maîtrise des données.",
+      "La bonne visualisation commence par la bonne question.",
     illustrative: true,
   },
   {
@@ -109,13 +109,13 @@ export const projects: Project[] = [
     eyebrow: "Computer vision · YOLO11 × SAM 3",
     category: "Intelligence artificielle",
     summary:
-      "Explorer la détection et la segmentation d’objets dans des séquences vidéo grâce à des approches de vision par ordinateur.",
+      "Repérer et segmenter les objets d’une vidéo grâce à la vision par ordinateur.",
     technologies: ["Python", "YOLO11", "SAM 3", "OpenCV", "PyTorch"],
     visual: "vision",
     context:
-      "Une séquence vidéo contient des objets et des mouvements qu’il est possible d’explorer avec des techniques de vision par ordinateur.",
+      "Dans une vidéo, objets et mouvements deviennent des données à explorer.",
     solution:
-      "Une exploration combinant détection d’objets, segmentation et visualisation des résultats au fil d’une séquence.",
+      "Détection, segmentation et visualisation des résultats, image après image.",
     features: [
       "Détection d’objets avec YOLO11",
       "Segmentation avec SAM 3",
@@ -134,13 +134,13 @@ export const projects: Project[] = [
     eyebrow: "Behavioral analytics · Machine learning",
     category: "Data science",
     summary:
-      "Explorer les comportements à partir de données structurées : repérer les écarts, identifier des profils et comprendre les évolutions dans le temps.",
+      "Repérer des tendances, profils et écarts pour mieux comprendre les comportements dans le temps.",
     technologies: ["Python", "Pandas", "Scikit-learn", "Anomaly detection"],
     visual: "behavior",
     context:
-      "Des événements et indicateurs observés dans le temps peuvent révéler des tendances, des groupes de comportements ou des écarts qui méritent une analyse approfondie.",
+      "Les événements observés dans le temps révèlent parfois des tendances ou des écarts inattendus.",
     solution:
-      "Une démarche d’analyse comportementale combinant préparation des variables, exploration statistique, détection d’anomalies et segmentation. Le choix des méthodes dépend de la nature, de la qualité et du contexte des données.",
+      "Préparer les données, chercher des anomalies et explorer des profils — en choisissant les méthodes selon leur contexte.",
     features: [
       "Construire des variables comportementales à partir des événements disponibles",
       "Analyser les distributions avec statistiques descriptives, quantiles et scores Z",
@@ -159,13 +159,13 @@ export const projects: Project[] = [
     eyebrow: "Agents IA · LLM · Architecture",
     category: "Intelligence artificielle",
     summary:
-      "Explorer la conception d’un système d’agents spécialisés capables de rechercher dans des contenus de référence, d’utiliser des outils métier et de transmettre les demandes sensibles à une personne.",
+      "Des agents spécialisés cherchent, agissent avec des limites claires et passent la main quand il le faut.",
     technologies: ["LLM", "RAG", "Tool calling", "FastAPI", "Vector search"],
     visual: "agents",
     context:
-      "Un assistant métier ne doit pas seulement générer du texte : il lui faut des sources contrôlées, des limites explicites, une orchestration compréhensible et un moyen de demander une validation humaine.",
+      "Un assistant fiable sait d’où vient sa réponse — et quand il doit s’arrêter.",
     solution:
-      "Un concept d’architecture modulaire : un agent routeur identifie l’intention, des agents spécialisés mobilisent la recherche documentaire ou des outils autorisés, puis un garde-fou vérifie la réponse et déclenche un relais humain si nécessaire.",
+      "Un agent routeur mobilise des spécialistes et des outils autorisés. Des garde-fous vérifient la réponse et sollicitent une personne si nécessaire.",
     features: [
       "Orchestration multi-agents avec responsabilités et outils délimités",
       "RAG : ingestion, découpage, embeddings, recherche vectorielle et citations des sources",

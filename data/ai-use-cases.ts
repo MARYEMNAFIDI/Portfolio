@@ -4,7 +4,7 @@ export const aiUseCases = [
     sector: "Hôtellerie & accueil",
     title: "L’accueil, même quand l’équipe est occupée.",
     description:
-      "Un assistant conversationnel multilingue pour répondre aux questions fréquentes, présenter les services et orienter les demandes de réservation vers la bonne équipe.",
+      "Un assistant multilingue qui présente les services, répond aux questions et guide les demandes de réservation.",
     tags: ["FAQ contextualisée", "Multilingue", "Relais humain"],
     visual: "hospitality",
   },
@@ -13,7 +13,7 @@ export const aiUseCases = [
     sector: "Écoles & formation",
     title: "Rendre l’information plus accessible.",
     description:
-      "Un chatbot alimenté par les informations validées de l’établissement pour guider élèves et familles vers les bonnes démarches, ressources et interlocuteurs.",
+      "Élèves et familles trouvent démarches, ressources et bons interlocuteurs dans un chatbot nourri par les contenus de l’école.",
     tags: ["Ressources de l’école", "Questions fréquentes", "Réponses sourcées"],
     visual: "education",
   },
@@ -22,7 +22,7 @@ export const aiUseCases = [
     sector: "Médecine esthétique",
     title: "Une présence digitale à la hauteur du lieu.",
     description:
-      "Un site vitrine élégant pour présenter les soins, l’équipe et les informations pratiques, avec un assistant qui oriente les demandes et facilite la prise de contact.",
+      "Un site soigné pour présenter soins et équipe, avec un assistant qui facilite la prise de contact — sans conseil médical.",
     tags: ["Site vitrine", "Présentation des soins", "Sans conseil médical"],
     visual: "aesthetics",
   },
@@ -31,7 +31,7 @@ export const aiUseCases = [
     sector: "Clubs équestres",
     title: "Faire vivre le club en ligne.",
     description:
-      "Un site dédié aux activités, cours et infrastructures, complété par un assistant qui répond aux questions pratiques et recueille les demandes de renseignements.",
+      "Cours, activités, infrastructures : un site vivant, épaulé par un assistant pour les questions pratiques.",
     tags: ["Site de club", "Activités & cours", "Équitation"],
     visual: "equestrian",
   },
@@ -41,16 +41,16 @@ export const aiWorkshopFormats = [
   {
     number: "A",
     title: "Découvrir l’IA",
-    description: "Comprendre les possibilités des outils génératifs et apprendre à les utiliser avec recul.",
+    description: "Explorer les outils génératifs et apprendre à les utiliser avec discernement.",
   },
   {
     number: "B",
     title: "Expérimenter les LLM",
-    description: "Pratiquer le prompt design et prototyper des assistants adaptés à un besoin concret.",
+    description: "Tester le prompt design et créer un premier assistant métier.",
   },
   {
     number: "C",
     title: "Imaginer une mission",
-    description: "Cartographier un processus et identifier des pistes d’automatisation utiles et responsables.",
+    description: "Repérer où l’automatisation peut vraiment aider — et où elle ne le doit pas.",
   },
 ] as const;

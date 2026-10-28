@@ -170,7 +170,7 @@ export default function Portfolio() {
               Je donne <em>forme</em><br className="desktop-break" /> aux idées complexes.
             </h1>
             <p className="hero-description" data-reveal>
-              Je suis Maryem Nafidi, ingénieure en informatique, Data Scientist et développeuse IA. J’imagine des agents et assistants LLM, des produits digitaux et des expériences métier utiles.
+              Data, IA, logiciel : je transforme les questions métier en outils qui servent vraiment.
             </p>
             <div className="hero-actions" data-reveal>
               <a className="button button-primary" href="#projects">Explorer mes projets <Arrow /></a>
@@ -198,7 +198,7 @@ export default function Portfolio() {
         </div>
 
         <section className="projects-section section-wrap" id="projects">
-          <SectionHeading index="01" title="Projets" lead="De l’analyse d’un besoin à la conception d’une solution, voici quelques projets qui racontent ma manière de travailler." />
+          <SectionHeading index="01" title="Projets" lead="Six projets. Six façons de transformer une idée en solution." />
           <div className="section-title-row" data-reveal><h2>Des idées devenues <em>réalité.</em></h2><span className="section-count">06 projets sélectionnés</span></div>
           <div className="project-filters" role="group" aria-label="Filtrer les projets" data-reveal>
             {filters.map((item) => (
@@ -220,12 +220,12 @@ export default function Portfolio() {
 
         <section className="expertise-section" id="expertise">
           <div className="section-wrap">
-            <SectionHeading index="02" title="Expertise" lead="Des disciplines différentes, une même envie : résoudre de vrais problèmes avec justesse." />
+            <SectionHeading index="02" title="Expertise" lead="Trois terrains, un même objectif : résoudre des problèmes concrets." />
             <h2 className="expertise-heading" data-reveal>Ce que je sais faire.<br /><em>Et ce que j’aime construire.</em></h2>
             <div className="expertise-grid">
-              <article className="expertise-card" data-reveal><span className="expertise-index">01 / Comprendre</span><div className="expertise-symbol"><BrainCircuit aria-hidden="true" /></div><h3>Data Science<br />&amp; Intelligence artificielle</h3><p>Explorer les données et concevoir des approches intelligentes, de l’analyse exploratoire à la vision par ordinateur.</p><div className="expertise-tags"><span>Python</span><span>Machine learning</span><span>Deep learning</span><span>NLP</span><span>Computer vision</span><span>Data analytics</span></div></article>
-              <article className="expertise-card expertise-card-featured" data-reveal><span className="expertise-index">02 / Dialoguer</span><div className="expertise-symbol"><Bot aria-hidden="true" /></div><h3>Agents IA<br />&amp; assistants LLM</h3><p>Créer des assistants conversationnels ancrés dans les contenus d’un métier, capables d’orienter les demandes et de passer le relais à une personne.</p><div className="expertise-tags"><span>LLM</span><span>Chatbots métiers</span><span>RAG &amp; recherche documentaire</span><span>Prompt design</span><span>Garde-fous</span><span>Intégration API</span></div></article>
-              <article className="expertise-card" data-reveal><span className="expertise-index">03 / Donner forme</span><div className="expertise-symbol"><Code2 aria-hidden="true" /></div><h3>Software<br />&amp; produits digitaux</h3><p>Concevoir des applications et sites accessibles qui relient besoins métier, expérience utilisateur, services et données.</p><div className="expertise-tags"><span>React</span><span>Next.js</span><span>TypeScript</span><span>React Native</span><span>FastAPI</span><span>SQL</span><span>UX / UI</span><span>Prototypage</span></div></article>
+              <article className="expertise-card" data-reveal><span className="expertise-index">01 / Comprendre</span><div className="expertise-symbol"><BrainCircuit aria-hidden="true" /></div><h3>Data Science<br />&amp; Intelligence artificielle</h3><p>Faire parler les données, du machine learning à la vision par ordinateur.</p><div className="expertise-tags"><span>Python</span><span>Machine learning</span><span>Deep learning</span><span>NLP</span><span>Computer vision</span><span>Data analytics</span></div></article>
+              <article className="expertise-card expertise-card-featured" data-reveal><span className="expertise-index">02 / Dialoguer</span><div className="expertise-symbol"><Bot aria-hidden="true" /></div><h3>Agents IA<br />&amp; assistants LLM</h3><p>Des assistants métier qui trouvent la bonne information et savent quand passer le relais.</p><div className="expertise-tags"><span>LLM</span><span>Chatbots métiers</span><span>RAG &amp; recherche documentaire</span><span>Prompt design</span><span>Garde-fous</span><span>Intégration API</span></div></article>
+              <article className="expertise-card" data-reveal><span className="expertise-index">03 / Donner forme</span><div className="expertise-symbol"><Code2 aria-hidden="true" /></div><h3>Software<br />&amp; produits digitaux</h3><p>Des sites et applications pensés pour les usages, pas seulement pour l’écran.</p><div className="expertise-tags"><span>React</span><span>Next.js</span><span>TypeScript</span><span>React Native</span><span>FastAPI</span><span>SQL</span><span>UX / UI</span><span>Prototypage</span></div></article>
             </div>
             <p className="expertise-note">Pas de jauges arbitraires. La progression se mesure aux problèmes que l’on apprend à mieux résoudre.</p>
           </div>
@@ -233,10 +233,10 @@ export default function Portfolio() {
 
         <section className="ai-services-section" id="ai-services">
           <div className="section-wrap">
-            <SectionHeading index="03" title="IA & secteurs" lead="Des assistants réellement utiles commencent par une bonne compréhension du terrain, de ses mots et de ses usages." />
+            <SectionHeading index="03" title="IA & secteurs" lead="L’IA devient utile quand elle comprend le quotidien d’un métier." />
             <div className="ai-services-intro" data-reveal>
               <div><span className="eyebrow">DES USAGES CONCRETS, PAS DE L’IA POUR L’IA</span><h2>Un métier différent.<br /><em>Une IA qui lui ressemble.</em></h2></div>
-              <p>Je conçois des pistes de solutions sur mesure : chatbot métier, agent LLM relié à des ressources validées, site web adapté à un secteur, ou prototype pour tester une idée. Voici quelques terrains où ces outils peuvent faire la différence.</p>
+              <p>Chatbot, agent LLM, site métier ou prototype : chaque idée part d’un vrai besoin et s’adapte à son secteur.</p>
             </div>
             <div className="ai-use-case-grid">
               {aiUseCases.map((useCase) => {
@@ -252,12 +252,12 @@ export default function Portfolio() {
                 );
               })}
             </div>
-            <p className="ai-use-case-note">Exemples de concepts et de missions possibles — pas des déploiements présentés comme déjà réalisés. Chaque projet se définit avec ses utilisateurs, ses contenus et ses contraintes.</p>
+            <p className="ai-use-case-note">Des pistes de projets à construire avec leurs utilisateurs, leurs contenus et leurs contraintes.</p>
             <div className="ai-workshops" data-reveal>
               <div className="workshop-intro">
                 <span className="eyebrow"><i>+</i> ATELIERS · ÉCOLES · CLUBS · ENTREPRISES</span>
                 <h3>Faire de l’IA quelque chose<br /><em>que l’on sait vraiment utiliser.</em></h3>
-                <p>Des formats participatifs pour découvrir, expérimenter et repartir avec des idées applicables à son quotidien.</p>
+                <p>On découvre, on teste, on repart avec des idées à appliquer dès demain.</p>
                 <a className="button button-primary" href="#contact">Imaginer un atelier <Arrow /></a>
               </div>
               <div className="workshop-formats">
@@ -289,7 +289,7 @@ export default function Portfolio() {
               <span className="about-art-caption">MARYEM NAFIDI<br />INGÉNIEURE · DATA &amp; IA</span>
               <div className="portrait-index">MN <i>—</i> 2026</div>
             </div>
-            <div className="about-copy" data-reveal><span className="eyebrow">UN PEU DE CONTEXTE</span><h2>La technologie m’intéresse.<br /><em>Les problèmes humains aussi.</em></h2><p>Je suis Maryem Nafidi, ingénieure en informatique diplômée de SUPMTI Rabat, spécialisée en Data Science.</p><p>Mon intérêt pour la technologie va au-delà du code. Ce qui me passionne, c’est comprendre les problèmes réels, analyser leurs contraintes et imaginer des solutions qui rendent les choses plus simples, plus intelligentes et plus efficaces.</p><p>À travers mes expériences, j’ai développé une approche qui relie la donnée, le développement logiciel et la compréhension des besoins métier. J’aime travailler à l’intersection de ces domaines, là où une idée peut devenir un outil réellement utile.</p><div className="values-row"><span>Curiosity</span><i>·</i><span>Precision</span><i>·</i><span>Creativity</span><i>·</i><span>Impact</span></div></div>
+            <div className="about-copy" data-reveal><span className="eyebrow">UN PEU DE CONTEXTE</span><h2>La technologie m’intéresse.<br /><em>Les problèmes humains aussi.</em></h2><p>Ingénieure en informatique diplômée de SUPMTI Rabat, je me spécialise en Data Science.</p><p>Mon réflexe : comprendre le besoin, explorer les données et imaginer un outil simple, utile et bien pensé. J’aime relier technologie et réalité du terrain.</p><div className="values-row"><span>Curiosity</span><i>·</i><span>Precision</span><i>·</i><span>Creativity</span><i>·</i><span>Impact</span></div></div>
           </div>
         </section>
 
@@ -297,24 +297,24 @@ export default function Portfolio() {
           <div className="section-wrap">
             <SectionHeading index="05" title="Mon parcours" lead="De la curiosité technologique à la conception de solutions intelligentes." />
             <div className="journey-layout">
-              <div className="journey-intro" data-reveal><span className="eyebrow">FIL CONDUCTEUR</span><h2>De la curiosité<br /><em>à la solution.</em></h2><p>Un parcours de la formation aux projets concrets, à la croisée de l’ingénierie logicielle et de la donnée.</p></div>
+              <div className="journey-intro" data-reveal><span className="eyebrow">FIL CONDUCTEUR</span><h2>De la curiosité<br /><em>à la solution.</em></h2><p>Un fil rouge : faire se rencontrer logiciel, données et besoins métier.</p></div>
               <div className="experience-timeline">
-                <article className="timeline-item" data-reveal><span className="timeline-date">2021 — 2026 · FORMATION</span><div className="timeline-entry"><span className="timeline-icon"><GraduationCap aria-hidden="true" /></span><div><h3>Génie informatique — Spécialisation Data Science</h3><span className="timeline-org">SUPMTI · Rabat</span><p>Un parcours de cinq années combinant développement logiciel, intelligence artificielle, analyse de données et conception de systèmes informatiques.</p></div></div></article>
-                <article className="timeline-item" data-reveal><span className="timeline-date">2024 — 2025 · PROJETS</span><div className="timeline-entry"><span className="timeline-icon"><Code2 aria-hidden="true" /></span><div><h3>Développement logiciel · Machine Learning · Computer Vision</h3><span className="timeline-org">Exploration &amp; projets techniques</span><p>Conception de projets autour du traitement automatique du langage, de la vision par ordinateur, des applications web et de l’analyse prédictive.</p><p>Une période consacrée à transformer les connaissances théoriques en solutions concrètes.</p></div></div></article>
-                <article className="timeline-item" data-reveal><span className="timeline-date">FÉVRIER — AOÛT 2026 · PFE</span><div className="timeline-entry"><span className="timeline-icon"><ChartNoAxesCombined aria-hidden="true" /></span><div><h3>Digitalisation &amp; ingénierie logicielle</h3><span className="timeline-org">Projet de fin d’études · SOREC</span><p>Conception et développement de plateformes métiers, automatisation de processus, centralisation des données et création de tableaux de bord décisionnels.</p><p>Une expérience complète, de l’analyse des besoins à la réalisation de solutions opérationnelles.</p></div></div></article>
-                <article className="timeline-item" data-reveal><span className="timeline-date">DEPUIS AOÛT 2026 · EXPÉRIENCE</span><div className="timeline-entry"><span className="timeline-icon"><BriefcaseBusiness aria-hidden="true" /></span><div><h3>Data Performance Analyst</h3><span className="timeline-org">SOREC · Direction des Haras Nationaux</span><p>Analyse de la performance, développement d’outils digitaux, conception d’indicateurs décisionnels et contribution à des projets de transformation numérique.</p><p>À l’intersection de la donnée, du développement logiciel et des besoins métiers.</p></div></div></article>
-                <aside className="journey-today" data-reveal><span className="journey-today-icon"><Sparkles aria-hidden="true" /></span><div><span className="timeline-date">AUJOURD’HUI</span><p>Je poursuis mon évolution en combinant Data Science, intelligence artificielle et software engineering pour concevoir des solutions utiles, fiables et innovantes.</p></div></aside>
+                <article className="timeline-item" data-reveal><span className="timeline-date">2021 — 2026 · FORMATION</span><div className="timeline-entry"><span className="timeline-icon"><GraduationCap aria-hidden="true" /></span><div><h3>Génie informatique — Spécialisation Data Science</h3><span className="timeline-org">SUPMTI · Rabat</span><p>Cinq ans entre développement, IA, analyse de données et conception de systèmes.</p></div></div></article>
+                <article className="timeline-item" data-reveal><span className="timeline-date">2024 — 2025 · PROJETS</span><div className="timeline-entry"><span className="timeline-icon"><Code2 aria-hidden="true" /></span><div><h3>Développement logiciel · Machine Learning · Computer Vision</h3><span className="timeline-org">Exploration &amp; projets techniques</span><p>NLP, vision par ordinateur, applications web et analyse prédictive : la théorie prend forme.</p></div></div></article>
+                <article className="timeline-item" data-reveal><span className="timeline-date">FÉVRIER — AOÛT 2026 · PFE</span><div className="timeline-entry"><span className="timeline-icon"><ChartNoAxesCombined aria-hidden="true" /></span><div><h3>Digitalisation &amp; ingénierie logicielle</h3><span className="timeline-org">Projet de fin d’études · SOREC</span><p>Du besoin au tableau de bord : plateformes métier, processus automatisés et données centralisées.</p></div></div></article>
+                <article className="timeline-item" data-reveal><span className="timeline-date">DEPUIS AOÛT 2026 · EXPÉRIENCE</span><div className="timeline-entry"><span className="timeline-icon"><BriefcaseBusiness aria-hidden="true" /></span><div><h3>Data Performance Analyst</h3><span className="timeline-org">SOREC · Direction des Haras Nationaux</span><p>Analyser la performance, créer des outils digitaux et éclairer les décisions par la donnée.</p></div></div></article>
+                <aside className="journey-today" data-reveal><span className="journey-today-icon"><Sparkles aria-hidden="true" /></span><div><span className="timeline-date">AUJOURD’HUI</span><p>Mon cap : réunir Data Science, IA et software engineering pour créer des solutions utiles et fiables.</p></div></aside>
               </div>
             </div>
           </div>
         </section>
 
         <section className="contact-section section-wrap" id="contact">
-          <SectionHeading index="06" title="Contact" lead="Une idée, un projet, une collaboration ou simplement une conversation autour de la technologie ? Je serais ravie d’échanger." />
+          <SectionHeading index="06" title="Contact" lead="Une idée en tête ? J’aimerais en entendre parler." />
           <div className="contact-card contact-card-centered" data-reveal>
             <span className="eyebrow"><Mail aria-hidden="true" /> ON COMMENCE PAR UNE CONVERSATION</span>
             <h2>Et si on créait<br />quelque chose <em>d’intéressant&nbsp;?</em></h2>
-            <p>Un projet data, un assistant IA ou une idée à explorer ? Écrivez-moi, je serai ravie d’en discuter.</p>
+            <p>Data, IA ou projet inattendu : ouvrons la conversation.</p>
             <a className="button button-primary contact-email-button" href={`mailto:${site.email}`}><Mail aria-hidden="true" /> M’écrire par e-mail <Arrow diagonal /></a>
           </div>
         </section>
